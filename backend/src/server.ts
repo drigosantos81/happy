@@ -18,5 +18,9 @@ app.use('/uploads', express.static(path.join(__dirname, '..', 'uploads')));
 app.use(errorHandler);
 
 app.listen(3334, function() {
-    console.log('Servidor backend ligado!!!');    
+    console.log('|----------------------------|');
+    console.log('|                            |');
+    console.log('| Servidor backend ligado!!! | ');
+    console.log('|                            |');
+    console.log('|----------------------------|');
 });
